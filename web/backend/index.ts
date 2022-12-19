@@ -22,8 +22,8 @@ const USE_ONLINE_TOKENS = false;
 const PORT = parseInt(environment.BACKEND_PORT || environment.PORT, 10);
 
 // TODO: There should be provided by env vars
-const DEV_INDEX_PATH = `${process.cwd()}/frontend/`;
-const PROD_INDEX_PATH = `${process.cwd()}/frontend/dist/`;
+const DEV_INDEX_PATH = `${process.cwd()}/../frontend/`;
+const PROD_INDEX_PATH = `${process.cwd()}/../frontend/dist/`;
 
 const DB_PATH = `${process.cwd()}/database.sqlite`;
 
